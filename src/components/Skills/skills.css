@@ -1,0 +1,35 @@
+.skills {
+    background-image: var(--second-gradient);
+}
+
+.skills__container {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 70px;
+}
+
+.skills__titles,
+.skills__description {
+    padding-inline: 20px;
+}
+
+.skills__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__description {
+    width: auto;
+    height: 150px;
+}
+
+.skills__titles {
+    margin-bottom: 15px;
+}
+
+.skills__name {
+    font-size: var(--largest-font-size);
+    text-align: center;
+    color: var(--primary-color);
+}
