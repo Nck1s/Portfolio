@@ -2,6 +2,7 @@ import React from 'react'
 import profileImg from "../../assets/Profile.png"
 import shapeOne from "../../assets/shape-1.png"
 import shapeTwo from "../../assets/shape-2.png"
+import Curriculum from "../../assets/CurriculumCristianPerez.pdf"
 
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import './home.css'
@@ -67,7 +68,7 @@ const Home = () => {
       </div>
 
       <div className='home__btns'>
-      <a href='' className='btn text-cs'>
+      <a href={Curriculum} download={''} className='btn text-cs'>
        Descargar CV
        </a>
        

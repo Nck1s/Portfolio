@@ -24,7 +24,7 @@ const Items = ( {projectItems} ) => {
           <h3 className='portfolio__title'> {title} </h3>
           <p className='portfolio__description'> {description} </p>
 
-          <a href='' className='link'>
+          <a href='https://github.com/Nck1s?tab=repositories' className='link'>
             Código en GitHub
             <FaArrowRight className='link__icon'></FaArrowRight>
           </a>

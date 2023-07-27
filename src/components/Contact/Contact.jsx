@@ -7,15 +7,16 @@ const Contact = () => {
     const form = useRef();
 
     const enviarEmail = (e) => {
-      e.preventDefault();
+        e.preventDefault();
   
-      emailjs.sendForm('service_hqvphfn', 'template_9rnfqro', form.current, 'lyvZeIK5qYTmktbVu')
+        emailjs.sendForm('service_hqvphfn', 'template_9rnfqro', form.current, 'lyvZeIK5qYTmktbVu')
         .then((result) => {
-            console.log(result)
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
         });
+
+        document.getElementById("contact-form").reset();    
     };
 
   return (
@@ -66,33 +67,28 @@ const Contact = () => {
                 </div>
             </div>
 
-            <form ref= {form} onSubmit={enviarEmail} className='contact__form'>
+            <form ref= {form} id='contact-form' onSubmit={enviarEmail} className='contact__form'>
                 <div className='contact__form-group grid'>
                     <div className='contact__form-div'>
                         <label className='contact__form-tag text-cs'> Nombre </label>
-                        <input type='text' className='contact__form-input' id="nombre" name="nombre"/>
+                        <input type='text' className='contact__form-input' name="user_name"/>
                     </div>
 
                     <div className='contact__form-div'>
                         <label className='contact__form-tag text-cs'> E-mail </label>
-                        <input type='email' className='contact__form-input' id="email" name="email" />
+                        <input type='email' className='contact__form-input' name="user_email" />
                     </div>
-                    </div>
+                </div>
 
-                    {/* <div className='contact__form-div'>
-                        <label className='contact__form-tag text-cs'> Asunto </label>
-                        <input type='text' className='contact__form-input' />
-                    </div> */}
-
-                    <div className='contact__form-div contact__form-area'>
+                <div className='contact__form-div contact__form-area'>
                         <label className='contact__form-tag text-cs'> Mensaje </label>
-                        <input type='text' className='contact__form-input' id="mensaje" name="mensaje" />
-                    </div>
+                        <input type='text' className='contact__form-input' name="user_message" />
+                </div>
 
-                    <div className='contact__submit'>
+                <div className='contact__submit'>
                         <p>* Acepto las políticas y condiciones</p>
                         <button type= 'submit' className='btn text-css'> Enviar Correo </button>
-                    </div>
+                </div>
             </form>
         </div>
     </section>
