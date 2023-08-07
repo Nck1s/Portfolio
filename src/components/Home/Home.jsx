@@ -6,6 +6,7 @@ import Curriculum from "../../assets/CurriculumCristianPerez.pdf"
 
 import { FaGithub, FaLinkedinIn } from "react-icons/fa"
 import './home.css'
+import Skills from '../Skills/Skills'
 
 const Home = () => {
   return <section className='home' id='home'>
@@ -72,7 +73,7 @@ const Home = () => {
        Descargar CV
        </a>
        
-      <a href='' className='hero__link text-cs'> 
+      <a href={Skills} className='hero__link text-cs'> 
       Mis Habilidades
        </a>
       </div>
