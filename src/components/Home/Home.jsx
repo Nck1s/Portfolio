@@ -1,12 +1,11 @@
-import React from 'react'
-import profileImg from "../../assets/Profile.png"
-import shapeOne from "../../assets/shape-1.png"
-import shapeTwo from "../../assets/shape-2.png"
-import Curriculum from "../../assets/CurriculumCristianPerez.pdf"
+import React from 'react';
+import profileImg from "../../assets/Profile.png";
+import shapeOne from "../../assets/shape-1.png";
+import shapeTwo from "../../assets/shape-2.png";
+import Curriculum from "../../assets/CurriculumCristianPerez.pdf";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import './home.css';
 
-import { FaGithub, FaLinkedinIn } from "react-icons/fa"
-import './home.css'
-import Skills from '../Skills/Skills'
 
 const Home = () => {
   return <section className='home' id='home'>
@@ -73,9 +72,6 @@ const Home = () => {
        Descargar CV
        </a>
        
-      <a href={Skills} className='hero__link text-cs'> 
-      Mis Habilidades
-       </a>
       </div>
     
     </div>

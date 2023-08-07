@@ -71,24 +71,26 @@ const Contact = () => {
                 <div className='contact__form-group grid'>
                     <div className='contact__form-div'>
                         <label className='contact__form-tag text-cs'> Nombre </label>
-                        <input type='text' className='contact__form-input' name="user_name"/>
+                        <input type='text' className='contact__form-input' name="user_name" required/>
                     </div>
 
                     <div className='contact__form-div'>
                         <label className='contact__form-tag text-cs'> E-mail </label>
-                        <input type='email' className='contact__form-input' name="user_email" />
+                        <input type='email' className='contact__form-input' name="user_email" required/>
                     </div>
                 </div>
 
                 <div className='contact__form-div contact__form-area'>
                         <label className='contact__form-tag text-cs'> Mensaje </label>
-                        <input type='text' className='contact__form-input' name="user_message" />
+                        <textarea type='text' className='contact__form-input' name="user_message" required/>
                 </div>
-
+                
                 <div className='contact__submit'>
+                        
                         <p>* Acepto las políticas y condiciones</p>
                         <button type= 'submit' className='btn text-css'> Enviar Correo </button>
                 </div>
+
             </form>
         </div>
     </section>
