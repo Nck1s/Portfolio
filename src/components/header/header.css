@@ -8,7 +8,7 @@
 
 .scroll-header {
     position: fixed;
-    background-color: var(--bg-color-alt);
+    background-image: var(--first-gradient);
     animation: header_animate 0.8s var(--transition) 0 forwards;
 }
 
@@ -42,7 +42,7 @@
     width: 0;
     height: 100vh;
     display: flex;
-    background-color: var(--bg-color-alt);
+    background-image: var(--first-gradient);
     transition: all 1s var(--transition);
     z-index: 10;
 }

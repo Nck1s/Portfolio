@@ -64,6 +64,22 @@
     --transition: cubic-beizer(0.3, 0, 0.3, 1);
 }
 
+/* Light-Theme */
+
+.light-theme {
+    --title-color: #000;
+    --text-color: #262626;
+    --bg-color: hsl(41, 47%, 85%);
+    --bg-color-alt: #fff;
+    --container-color: #fff;
+    --border-color: #000;
+
+    /* Light-Shadow */
+
+    --shadow: 5px 5px rgb(0 0 0 / 20%);
+}
+
+
 /* Reset */
 
 *{
@@ -178,11 +194,13 @@ img{
     opacity: 1;
 }
 
-.shape {
-    position: absolute;
+.dark-theme .shape{
     filter: invert(1);
     opacity: 0.6;
-    
+}
+
+.shape {
+    position: absolute;    
 }
 
 .section {

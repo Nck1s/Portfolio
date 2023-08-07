@@ -5,11 +5,11 @@ import Project4 from './assets/StreamHub.jpg';
 
 export const links = [
   {
-    name: 'Home',
+    name: 'Inicio',
     path: 'home',
   },
   {
-    name: 'Skills',
+    name: 'Habilidades',
     path: 'skills',
   },
   {
@@ -17,11 +17,11 @@ export const links = [
     path: 'work',
   },
   {
-    name: 'Resume',
+    name: 'Historia',
     path: 'resume',
   },
   {
-    name: 'Contact',
+    name: 'Contacto',
     path: 'contact',
   },
 ];
