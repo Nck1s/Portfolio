@@ -3,8 +3,7 @@ import './header.css';
 import { links } from '../../Data';
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsSun, BsMoon } from 'react-icons/bs';
-import { Link } from 'react-scroll';
-import { animateScroll } from 'react-scroll';
+import { Link, animateScroll} from 'react-scroll'
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
