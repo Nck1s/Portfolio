@@ -9,7 +9,7 @@ const Skills = () => {
             Habilidades Profesionales
         </h2>
         <p className='section__subtitle'>
-        Mis <span> Habilidades </span>
+        Tecnologías <span> Utilizadas </span>
         </p>
 
         <div className='skills__container container grid'>

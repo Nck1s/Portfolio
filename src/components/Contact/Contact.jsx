@@ -12,6 +12,7 @@ const Contact = () => {
         emailjs.sendForm('service_hqvphfn', 'template_9rnfqro', form.current, 'lyvZeIK5qYTmktbVu')
         .then((result) => {
             console.log(result.text);
+            alert('El mensaje se ha enviado');
         }, (error) => {
             console.log(error.text);
         });
