@@ -42,9 +42,10 @@
 }
 
 .contact__card-title {
-    font-size: var(--h2-font-size);
-    font-family: var(--second-font);
+    font-size: var(--h5-font-size);
+    font-family: var(--first-font);
     padding-block: 6px;
+    
 }
 
 .contact__form-group {
@@ -89,3 +90,98 @@
     justify-content: flex-end;
     column-gap: 30px;
 }
+
+/* Estilos para dispositivos móviles (hasta 767px) */
+@media screen and (max-width: 767px) {
+    .contact__container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact__form{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact__content {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact__card {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100px ;
+    }
+
+    .contact__card-title {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact__card-icon {
+        display: none;
+    }
+
+    .contact__form-group{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact__submit{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  
+  /* Estilos para tabletas (768px - 1023px) */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contact__container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact__content {
+        width: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    
+    .contact__form{
+        margin-left: 30px;
+    }
+  }
+  
+  /* Estilos para escritorios (1024px en adelante) */
+  @media screen and (min-width: 1024px) {
+   
+  }

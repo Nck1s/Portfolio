@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import './portfolio.css';
 
 const List = ( { list, filterItems } ) => {
   const [active, setActive] = useState(0);

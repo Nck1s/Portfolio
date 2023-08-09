@@ -36,7 +36,7 @@ const Contact = () => {
                         <FaRegMap />
                     </span>
 
-                    <h3 className='contact__card.title'> Dirección</h3>
+                    <h3 className='contact__card-title'> Dirección</h3>
                     <p className='contact__card-data'>Alicante, España</p>
                 </div>
 
@@ -45,7 +45,7 @@ const Contact = () => {
                         <FaRegUser />
                     </span>
 
-                    <h3 className='contact__card.title'>FullStack Junior Developer</h3>
+                    <h3 className='contact__card-title'>FullStack Junior Developer</h3>
                     <p className='contact__card-data'>Disponible para trabajar</p>
                 </div>
 
@@ -54,7 +54,7 @@ const Contact = () => {
                         <FaRegEnvelope/>
                     </span>
 
-                    <h3 className='contact__card.title'>E-mail</h3>
+                    <h3 className='contact__card-title'>E-mail</h3>
                     <p className='contact__card-data'>cristianperezcases@gmail.com</p>
                 </div>
 
@@ -63,7 +63,7 @@ const Contact = () => {
                         <FaRegAddressBook/>
                     </span>
 
-                    <h3 className='contact__card.title'>Móvil</h3>
+                    <h3 className='contact__card-title'>Móvil</h3>
                     <p className='contact__card-data'>687 022 103</p>
                 </div>
             </div>

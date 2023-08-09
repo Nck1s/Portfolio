@@ -143,3 +143,18 @@
     transform: rotate(45deg);
     bottom: 14px;
 }
+
+/* Estilos para dispositivos móviles (hasta 767px) */
+@media screen and (max-width: 767px) {
+   
+}
+
+/* Estilos para tabletas (768px - 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+}
+
+/* Estilos para escritorios (1024px en adelante) */
+@media screen and (min-width: 1024px) {
+ 
+}

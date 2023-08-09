@@ -84,3 +84,57 @@
 .resume__description {
     margin-block: 20px 30px;
 }
+
+/* Estilos para dispositivos móviles (hasta 767px) */
+@media screen and (max-width: 767px) {
+
+    .resume__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        width: 90vw;
+    }
+
+    .resume__item {
+        border-right: 2px solid var(--border-color);
+        border-left: 2px solid var(--border-color);
+    }
+
+    .resume__group {
+        margin-bottom: 40px;
+    }
+   
+}
+
+/* Estilos para tabletas (768px - 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1180px) {
+   
+    .resume__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        width: 90vw;
+    }
+
+    .resume__item {
+        border-right: 2px solid var(--border-color);
+        border-left: 2px solid var(--border-color);
+    }
+
+    .resume__group {
+        margin-bottom: 40px;
+    }
+}
+
+/* Estilos para escritorios (1180px en adelante) */
+@media screen and (min-width: 1180px) {
+ 
+}

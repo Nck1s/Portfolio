@@ -2,6 +2,7 @@ import React from 'react'
 import { FaArrowRight } from 'react-icons/fa';
 import shapeTwo from '../../assets/shape-2.png'
 import { motion } from 'framer-motion';
+import './portfolio.css';
 
 const Items = ( {projectItems} ) => {
   return (

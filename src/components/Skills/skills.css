@@ -33,3 +33,50 @@
     text-align: center;
     color: var(--primary-color);
 }
+
+/* Estilos para dispositivos móviles (hasta 767px) */
+@media screen and (max-width: 767px) {
+
+   .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    width: 100vw;
+   }
+
+   .skills__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    width: 100vw;
+   }
+}
+
+/* Estilos para tabletas (768px - 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+   .skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    width: 100vw;
+   }
+   
+}
+
+/* Estilos para escritorios (1024px en adelante) */
+@media screen and (min-width: 1024px) {
+ 
+}
