@@ -147,6 +147,10 @@
         justify-content: center;
     }
 
+    .contact__form-input {
+        min-width: 250px;
+    }
+
     .contact__submit{
         width: 100vw;
         display: flex;
